@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@/*": [
+                "./*"
+            ],
+            "@helpers/*": [
+                "helpers/*"
+            ]
+        },
+        "allowJs": true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowUnusedLabels": false,
+        "allowSyntheticDefaultImports": true,
+        "target": "es5",
+        "strictNullChecks": true,
+        "strict": true,
+        "module": "esnext",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "./node_modules/@types/",
+            "./typings"
+        ],
+        "strictPropertyInitialization": false,
+        "types": [
+            "vue-typescript-import-dts"
+        ],
+        "lib": [
+            "dom",
+            "es2015",
+            "es2015.promise"
+        ],
+        "locale": "ko",
+        "pretty": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
