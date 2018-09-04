@@ -7,7 +7,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     devtool: 'cheap-module-eval-source-map',
     entry: [
         'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-        './src/main.js',
+        './src/main.ts',
     ],
     output: {
         path: path.join(__dirname, './dist'),
