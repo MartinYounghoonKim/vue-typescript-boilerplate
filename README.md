@@ -11,11 +11,14 @@ $ ./publish.sh
 * pm2
 * Docker compose
 
-## Features
-* Express Server@4.16.2
-* VueJS@2.5.2
-* webpack-dev-middleware@2.0.6
-* webpack-dev-server@2.9.1
+### Features
+* ---------- **Essentials** ----------
+* [x] Setting development environment with docker container 
+* [x] Hot module replacement in express server
+* [x] Hot module replacement in docker container
+* [ ] Apply sample vuex module
+* [ ] Apply middleware in vue router
+* [ ] Deploy script for jenkins
 
 ## Folder directory
 
