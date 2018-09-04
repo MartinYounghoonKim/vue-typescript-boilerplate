@@ -1,8 +1,6 @@
 <template>
     <div id="app">
-        asdf
     </div>
-    <!--// 컨텐츠 영역 -->
 </template>
 
 <script lang="ts">
@@ -20,4 +18,5 @@
 </script>
 
 <style lang="scss">
+    @import './styles/sample';
 </style>
