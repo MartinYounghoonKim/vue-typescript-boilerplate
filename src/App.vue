@@ -14,6 +14,9 @@
         constructor () {
             super();
         }
+        created () {
+            console.log(process.env.DEVELOPMENT_API_BASE_URI);
+        }
     }
 </script>
 

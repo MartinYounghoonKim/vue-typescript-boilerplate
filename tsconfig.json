@@ -9,7 +9,7 @@
                 "helpers/*"
             ]
         },
-        "allowJs": true,
+        "allowJs": false,
         "noImplicitAny": true,
         "noFallthroughCasesInSwitch": true,
         "allowUnusedLabels": false,

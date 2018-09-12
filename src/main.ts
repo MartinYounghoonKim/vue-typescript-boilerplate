@@ -5,8 +5,8 @@ import App from './App.vue';
 // import store from './stores/index.ts';
 
 Vue.config.productionTip = false;
-if (module.hot) {
-    module.hot.accept();
+if ((module as any).hot) {
+    (module as any).hot.accept();
 }
 
 /* eslint-disable no-new */
