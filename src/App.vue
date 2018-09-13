@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <div>{{ 1234123 | numberFormat }}</div>
     </div>
 </template>
 
